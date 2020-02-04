@@ -10,10 +10,15 @@ The challenge is hosted Kaggle platform. it has been frequented by a growing com
 ## Dataset
 
 building_metadata.csv (6 columns)
+
 sample_submission.csv(2 colones)
+
 test.csv (4 columns)
+
 train.csv(4 columns)
+
 weather_test.csv(9 colones)
+
 weather \ _train.csv(9 colones)
 
 This Dataset can be downloaded by the following command  : kaggle competitions download -c ashrae-energy-prediction
@@ -24,34 +29,69 @@ In this project, we will explore and execute our code with Kaggle Python Noteboo
 {Step 1:} ***********
 
 Import libraries
+
 Import of Dataset
+
 Explore the Datset
+
 {Step 2:} *********** 
+
 Data processing
+
 Fix timestamp
+
 Replace missing data
+
 Merge data sets
+
 Reduced memory usage
+
 Data processing for building dataset
+
 Data processing for weather dataset
 
+
+
 {Step 3:} *********** 
+
 train Dataset processing
 
+
+
 Merged data
+
 Reduced memory usage
+
 {itemize}
+
 textbf {Step 4:} *********** 
+
 Creation of models
+
 keras Neural Network
+
+
+
 K-Fold
+
+
 LSTM Network
+
 {Data reFormatting}
+
 To run the LSTM neural network, the data must have a three-dimensional shape where the axis corresponds to the following data: \\
 $ * $ x-axis time steps 
+
 $ * $ y-axis data examples 
+
 $ * $ z-axis features for single point in time 
+
 textbf {Step 5:} *********** 
- Creation of submission.csv
+
+
+Creation of submission.csv
+
+
+
 
 
